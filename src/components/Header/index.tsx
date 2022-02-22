@@ -8,6 +8,7 @@ const Container = styled.header`
     width: 100%;
     height: 6.1rem;
     padding: 0 3.2rem;
+    background: var(--white);
 
     & > div:first-child {
         border-right: .1rem solid var(--shapes-fst);
