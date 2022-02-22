@@ -1,6 +1,9 @@
 import Head from 'next/head';
+
 import styled from "styled-components";
-import BasicLayout from '../layout/Basic';
+import BasicLayout from '../../layout/Basic';
+
+import { Header } from '../components/Header';
 
 const Main = styled.main`
   background-color: yellow;
@@ -16,8 +19,8 @@ export default function Home() {
       </Head>
 
       <BasicLayout>
+        <Header />
         <Main>
-          <h1>Hello World!</h1>
         </Main>
       </BasicLayout>
     </>
