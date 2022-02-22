@@ -4,10 +4,22 @@ import styled from "styled-components";
 import BasicLayout from '../../layout/Basic';
 
 import { Header } from '../components/Header';
+import { TabComponent } from '../components/TabComponent';
 
 const Main = styled.main`
-  background-color: yellow;
+  max-width: 95.6rem;
+  margin: 0 auto;
+  padding: 4rem 2.4rem;
+
+  h1 {
+    font-size: 3.2rem;
+    line-height: 3.2rem;
+    color: var(--gray-50);
+    font-weight: 600;
+    margin: 0 0 2.4rem;
+  }
 `;
+
 
 export default function Home() {
   return (
@@ -21,6 +33,8 @@ export default function Home() {
       <BasicLayout>
         <Header />
         <Main>
+          <h1>Organização</h1>
+          <TabComponent />
         </Main>
       </BasicLayout>
     </>
