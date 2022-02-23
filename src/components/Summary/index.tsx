@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import { Navigation } from '../Navigation';
 
 const TabContainer = styled.section`
     background: var(--white);
@@ -9,10 +10,12 @@ const TabContainer = styled.section`
     box-shadow: 0px 4px 8px rgba(165, 171, 179, 0.16);
 `;
 
-export function TabComponent() {
+export function Summary() {
     return (
         <TabContainer>
-            <h2>Hello</h2>
+            <Navigation />
+            {/* <SearchBar /> */}
+            {/* <OrgDataTable /> */}
         </TabContainer>
     );
 }
