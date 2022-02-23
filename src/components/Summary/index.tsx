@@ -1,5 +1,6 @@
 import styled from 'styled-components';
 import { Navigation } from '../Navigation';
+import { SearchBar } from '../SearchBar';
 
 const TabContainer = styled.section`
     background: var(--white);
@@ -14,7 +15,7 @@ export function Summary() {
     return (
         <TabContainer>
             <Navigation />
-            {/* <SearchBar /> */}
+            <SearchBar />
             {/* <OrgDataTable /> */}
         </TabContainer>
     );
