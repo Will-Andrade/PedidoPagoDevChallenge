@@ -4,7 +4,7 @@ import styled from "styled-components";
 import BasicLayout from '../../layout/Basic';
 
 import { Header } from '../components/Header';
-import { TabComponent } from '../components/TabComponent';
+import { Summary } from '../components/Summary';
 
 const Main = styled.main`
   max-width: 95.6rem;
@@ -33,8 +33,8 @@ export default function Home() {
       <BasicLayout>
         <Header />
         <Main>
-          <h1>Organização</h1>
-          <TabComponent />
+          <h1>Colaboradores</h1>
+          <Summary />
         </Main>
       </BasicLayout>
     </>
