@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import { DataTable } from '../DataTable';
 import { Navigation } from '../Navigation';
 import { SearchBar } from '../SearchBar';
 
@@ -16,7 +17,7 @@ export function Summary() {
         <TabContainer>
             <Navigation />
             <SearchBar />
-            {/* <OrgDataTable /> */}
+            <DataTable />
         </TabContainer>
     );
 }

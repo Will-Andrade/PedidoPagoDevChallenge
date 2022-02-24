@@ -6,6 +6,7 @@ const Container = styled.nav`
     grid-template-columns: 1fr 1fr 2fr;
     text-align: center;
     border-bottom: .2rem solid var(--shapes-fst);
+    margin-bottom: 4rem;
     
     a {
         display: inline-block;

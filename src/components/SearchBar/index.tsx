@@ -6,6 +6,7 @@ const Container = styled.fieldset`
     border-radius: .8rem;
     border: .2rem solid var(--shapes-frt);
     padding: 1rem;
+    margin-bottom: 4rem;
 
     legend {
         color: var(--gray-30);
